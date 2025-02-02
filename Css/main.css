@@ -119,11 +119,11 @@ header {
 
 .menu hr {
   border: 0.045rem solid var(--deep-teal);
-  margin-bottom: 1.7rem;
+  margin-bottom: 2.2rem;
 }
 
 .menu ul .menu-list{
-  margin-bottom: 1.3rem;
+  margin-bottom: 2rem;
   box-shadow: -0px 0.7px 0.9px var(--primary-color);
   border-radius: 0.18rem;
 }
@@ -235,6 +235,13 @@ header {
   margin-right: 1rem;
   border-radius: 0.4rem;
   font-size: 1.1rem;
+}
+
+.content .cta a:focus, 
+.content .cta a:hover {
+  transform: scale(1.05);
+  transition-duration: 500ms;
+  background: linear-gradient(to right, var(--accent-color), var(--light-teal));
 }
 
 /* UTILITIES */
