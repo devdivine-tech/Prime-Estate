@@ -5,10 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Prime Estate</title>
-  <link rel="stylesheet" href="./Css/main.css" type="text/css" media="all"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="Css/main.css" type="text/css" media="all" />
   <script src="https://kit.fontawesome.com/cdbfd05236.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+  <div id="contain">
+    <div id="circle">
+    </div>
+  </div>
+  <header>
+    <div class="">
+      <img class="logo" src="./Images/prime-estate.png" alt="Prime Estate"/>
+    </div>
+    <div class="main-menu">
+      <button class="menu-icon"><i class="fa-solid fa-bars"></i></button>
+      <nav aria-label="menu-bar" class="menu hidden">
+        <h3>Menu</h3>
+        <hr/>
+        <ul>
+          <li class="menu-list"><a class="" href="#">Home</a></li>
+          <li class="menu-list">
+            <a class="list-opt" href="#">
+              Properties 
+              <i class="fa-solid fa-chevron-down drop-down"></i>
+            </a>
+            <ul class="hidden opt1">
+              <li class="opt-list"><a href="">Apartment</a></li>
+              <li class="opt-list"><a href="">Duplex</a></li>
+              <li class="opt-list"><a href="">Bungalows</a></li>
+              <li class="opt-list"><a href="">Mansions</a></li>
+              <li class="opt-list"><a href="">Commercial properties</a></li>
+              <li class="opt-list"><a href="">Land for sale</a></li>
+            </ul>
+          </li>
+          <li class="menu-list"><a class="" href="#">About</a></li>
+          <li class="menu-list">
+            <a class="list-opt" href="#">
+              Services <i class="fa-solid fa-chevron-down drop-down"></i>
+            </a>
+            <ul class="hidden opt2">
+              <li class="opt-list"><a href="">Rent a House</a></li>
+              <li class="opt-list"><a href="">Buy a House</a></li>
+              <li class="opt-list"><a href="">Sell a House</a></li>
+              <li class="opt-list"><a href="">Real Estate Consultant</a></li>
+              <li class="opt-list"><a href="">Property Management</a></li>
+            </ul>
+          </li>
+          <li class="menu-list"><a class="" href="#">Contact Us</a></li>
+          <li class="menu-list"><a class="" href="#">Blogs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <article class="img">
+        <img class="house" data-aos="fade-left" data-aos-delay="200" data-aos-once="true" src="/Images/house.png" alt="A House"/>
+      </article>
+      <article class="content">
+        <h1 data-aos="fade-right">Discover Stunning Properties Built For Elite Living</h1>
+        <p class="description" data-aos="fade-right" data-aos-delay="400">Explore a curated selection of luxurious homes and prime real estate. Whether you're looking to buy, rent, or invest, Prime Estate brings you exceptional properties designed for comfort, style, and prestige.
+        </p>
+        <div class="cta" data-aos="fade-right" data-aos-delay="600">
+          <a href="">Explore Listings</a>
+          <a href="">Schedule Tour</a>
+        </div>
+      </article>
+    </section>
+    
+    
+  </main>
+  <script src="/JS/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

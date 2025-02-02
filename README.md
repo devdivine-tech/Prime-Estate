@@ -1,2 +1,2 @@
-# Real-Estate-Templates-
-A simple real estate website...
+# Prime Estate
+This is just a simple real estate template
