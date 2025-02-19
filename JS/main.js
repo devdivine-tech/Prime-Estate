@@ -157,4 +157,5 @@ desktopFuction();
 AOS.init({
   delay: 200,
   duration: 800,
+  once: true,
 });
