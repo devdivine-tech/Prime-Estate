@@ -123,8 +123,13 @@ const listOpt = () => {
   });
 };
 
-
-
+// FIX YEAR 
+const currentYear = () => {
+  let date = new Date();
+  let year = document.querySelector(".year");
+  year.innerHTML = date.getUTCFullYear().toString();
+}
+currentYear();
 
 
 // MOBILE FUCTIONS ALLOWED TO RUB

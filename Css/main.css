@@ -190,6 +190,7 @@ header .mobile-menu .menu {
 /* || HERO SECTION */
 .hero {
   display: grid;
+  scroll-margin-top: 5rem;
   grid-auto-columns: auto;
   grid-auto-flow: row;
   row-gap: 1rem;
@@ -278,6 +279,7 @@ header .mobile-menu .menu {
   margin-top: 8.5rem;
   margin-bottom: 9rem;
   padding: 1rem;
+  scroll-margin-top: 5rem;
   background-color: var(--light-teal);
 }
 
@@ -422,6 +424,7 @@ header .mobile-menu .menu {
 .about {
   padding: 0;
   margin-bottom: 8rem;
+  scroll-margin-top: 5rem;
 }
 
 .about .about-details {
@@ -447,6 +450,7 @@ header .mobile-menu .menu {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  overflow-x: hidden;
 }
 
 .about .about-features .feature {
@@ -486,6 +490,7 @@ header .mobile-menu .menu {
   width: fit-content;
   margin-inline: auto;
   transition: 0.5s;
+  box-shadow: 0 0 0.5rem var(--accent-color);
 }
 
 .about .about-features .feature a:hover, 
@@ -504,6 +509,7 @@ header .mobile-menu .menu {
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 7rem;
+  scroll-margin-top: 5rem;
 }
 
 .process::before {
@@ -591,6 +597,7 @@ header .mobile-menu .menu {
 /* CLIENT TESTIMONIAL */
 .testimonial {
   padding: 1rem;
+  scroll-margin-top: 5rem;
   margin-bottom: 7rem;
 }
 
@@ -654,6 +661,7 @@ header .mobile-menu .menu {
   margin-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
+  scroll-margin-top: 5rem;
   align-items: center;
 }
 
@@ -661,15 +669,274 @@ header .mobile-menu .menu {
   background-color: var(--light-teal);
   padding: 1rem;
   flex-grow: 1;
-  max-width: 700px;
+  width: 700px;
+  overflow-x: hidden;
 }
 
 .get-in-touch .get-in-touch_consultant-infos .heading {
   margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.get-in-touch .get-in-touch_consultant-infos .heading h2{
+  margin-bottom: 0.5rem;
 }
 
 .get-in-touch .get-in-touch_consultant-infos .heading h2 i {
   font-size: 1.3rem;
+}
+
+.get-in-touch .get-in-touch_consultant-infos .heading p {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.get-in-touch .get-in-touch_consultant-infos .info {
+  margin-top: 2.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.get-in-touch .get-in-touch_consultant-infos .info a {
+  margin-bottom: 1.05rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  transition: 500ms;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.get-in-touch .get-in-touch_consultant-infos .info a:focus, 
+.get-in-touch .get-in-touch_consultant-infos .info a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.get-in-touch .get-in-touch_user-infos {
+  padding: 1rem;
+  flex-grow: 1;
+  overflow-x: hidden;
+  width: 700px;
+  background-color: var(--accent-color);
+}
+
+.get-in-touch .get-in-touch_user-infos .heading {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  padding-top: 0;
+}
+
+.get-in-touch .get-in-touch_user-infos .heading h2 {
+  margin-bottom: 0.5rem;
+}
+
+.get-in-touch .get-in-touch_user-infos .heading h2 i {
+  font-size: 1.3rem;
+}
+
+.get-in-touch .get-in-touch_user-infos .heading p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.get-in-touch .get-in-touch_user-infos .info {
+  margin-top: 1rem;
+}
+
+.get-in-touch .get-in-touch_user-infos .info form {
+  padding: 0.5rem;
+}
+
+.get-in-touch .get-in-touch_user-infos .info form input {
+  display: block;
+  height: 2.3rem;
+  border: 0.05rem solid var(--accent-color);
+  border-radius: 1.1rem;
+  background-color: var(--light-teal);
+  color: var(--deep-teal);
+  padding: 0.5rem;
+  padding-inline: 0.8rem;
+  margin-bottom: 1.2rem;
+  width: 95%;
+  position: relative;
+}
+
+.get-in-touch .get-in-touch_user-infos .info form input:focus, 
+.get-in-touch .get-in-touch_user-infos .info form input:hover {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0.35rem var(--very-light-teal);
+}
+
+.get-in-touch .get-in-touch_user-infos .info form ::placeholder {
+  color: var(--deep-teal);
+  opacity: 0.8;
+  font-family: var(--lato);
+}
+
+.get-in-touch .get-in-touch_user-infos .info form textarea {
+  display: block;
+  border: 0.05rem solid var(--accent-color);
+  border-radius: 1rem;
+  background-color: var(--light-teal);
+  color: var(--deep-teal);
+  padding: 0.5rem;
+  padding-inline: 0.8rem;
+  margin-bottom: 1.2rem;
+  width: 95%;
+  position: relative;
+}
+
+.get-in-touch .get-in-touch_user-infos .info form textarea:focus, 
+.get-in-touch .get-in-touch_user-infos .info form textarea:hover {
+  outline: none;
+  box-shadow: 0 0 0.35rem var(--very-light-teal);
+  border-color: var(--primary-color);
+}
+
+.get-in-touch .get-in-touch_user-infos .info form button {
+  padding: 0.7rem;
+  padding-inline: 1.1rem;
+  border: none;
+  color: var(--very-light-teal);
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  box-shadow: 0 0 0.35rem var(--very-light-teal);
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s ease-in;
+}
+
+.get-in-touch .get-in-touch_user-infos .info form button::before {
+  content: "";
+  position: absolute;
+  border-radius: 0.3rem;
+  background-color: var(--primary-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in;
+}
+
+.get-in-touch .get-in-touch_user-infos .info form button:hover::before, 
+.get-in-touch .get-in-touch_user-infos .info form button:focus::before {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.get-in-touch .get-in-touch_user-infos .info form button span {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* || FOOTER */
+footer {
+  background: var(--deep-teal);
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  padding: 1rem;
+}
+
+footer h2 {
+  text-align: center;
+  color: var(--light-teal);
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+footer .links {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer .links .links_short {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  max-width: 650px;
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .links .links_short .short {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-shadow: 0 0 0.09rem var(--accent-color);
+  transition: 0.3s ease-in-out;
+  color: var(--very-light-teal);
+  margin-bottom: 1rem;
+}
+
+footer .links .links_short .short:hover, 
+footer .links .links_short .short:focus {
+  color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+footer .links .links_icon {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 350px;
+  margin-inline: auto;
+}
+
+footer .links .links_icon .icon {
+  font-size: 1.7rem;
+  color: var(--very-light-teal);
+  font-weight: 600;
+  text-shadow: 0 0 0.09rem var(--accent-color);
+  transition: 0.5s ease-in-out;
+}
+
+footer .links .links_icon .icon:hover, 
+footer .links .links_icon .icon:focus {
+  color: var(--secondary-color);
+  transform: scale(1.15);
+}
+
+footer .close-page {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 3.5rem;
+}
+
+footer .close-page p {
+  color: var(--very-light-teal);
+  font-weight: 500;
+  text-align: center;
+}
+
+.storeset {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-shadow: 0 0 0.01rem var(--very-light-teal);
+  color: var(--accent-color);
+  animation: ping 0.8s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes ping {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
 
 
