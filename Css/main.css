@@ -50,6 +50,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 20;
+  overflow-x: hidden;
 }
 
 img {
@@ -308,6 +309,7 @@ header .mobile-menu .menu {
 .listings .listing-filter {
   margin-top: 3rem;
   display: flex;
+  scroll-margin-top: 12rem;
   align-items: center;
   max-width: 80%;
   margin-inline: auto;
@@ -328,6 +330,43 @@ header .mobile-menu .menu {
 
 .listings .listing-filter .filter:last-child {
   border-right: none;
+}
+
+.listings .listing-filter .filter1 {
+  padding: 0.26rem;
+  padding-inline: 1rem;
+  border-right: 0.1rem solid var(--accent-color);
+  background-color: var(--secondary-color);
+  color: var(--very-light-teal);
+  flex-grow: 0;
+  flex-shrink: 2;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.listings .listing-filter .filter1 i {
+  color: var(--very-light-teal);
+  font-size: 1.5rem;
+}
+
+.listings .listing-filter .filter1 i:last-child {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 900;
+  transform: rotateY(180deg) rotateZ(5deg);
+}
+
+.listings .listing-filter .filter1:hover i:last-child, 
+.listings .listing-filter .filter1:focus i:last-child, 
+.listings .listing-filter .filter1:active i:last-child {
+  color: var(--primary-color);
+}
+
+.listings .listing-filter .filter1:hover, 
+.listings .listing-filter .filter1:focus, 
+.listings .listing-filter .filter1:active {
+  background-color: var(--primary-color);
 }
 
 .listings .listing-filter .filter:hover, 
@@ -572,7 +611,7 @@ header .mobile-menu .menu {
 
 .process .process-steps .steps i {
   color: var(--light-teal);
-  font-size: 7rem;
+  font-size: 6rem;
   margin-inline: 1rem;
 }
 
@@ -1327,7 +1366,7 @@ footer .close-page p {
   }
   
   .process .process-steps .steps .comment {
-    font-size: 8.5rem;
+    font-size: 7.5rem;
   }
   
   .testimonial .testimonial-heading h2 {
