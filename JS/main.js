@@ -1,20 +1,21 @@
 let mobileMenu = document.querySelector('.mobile-menu');
 
 // MAIN MENU 
-const menuFuction = () => {
+const menuToggle = () => {
   let menuIcon  = mobileMenu.querySelector(".menu-icon");
   let menu = mobileMenu.querySelector(".menu");
-  const openMenu = () => {
-    menu.classList.toggle("hidden");
-    if (!menu.classList.contains("hidden")) {
+  const toggle = () => {
+    if (menu.id === "translateX100") {
+      menu.id = "translateX0";
       menuIcon.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
     } else {
+      menu.id = "translateX100";
       menuIcon.innerHTML = `<i class="fa-solid fa-bars"></i>`;
     }
   }
   
-  menuIcon.addEventListener("click", openMenu);
-};
+  menuIcon.addEventListener("click", toggle)
+}
 
 // LIST MENU || MOBILE VIEWS
 const listMenu = () => {
@@ -177,8 +178,8 @@ currentYear();
 // MOBILE FUCTIONS ALLOWED TO RUB
 const mobileFuction = () => {
   if (window.innerWidth <= 985) {
-    menuFuction();
     listMenu();
+    menuToggle();
   };
 };
 mobileFuction();
