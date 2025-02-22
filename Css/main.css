@@ -362,7 +362,7 @@ header .mobile-menu .menu {
 }
 
 .listings .listing-filter .filter1 {
-  padding: 0.26rem;
+  padding: 0.35rem;
   padding-inline: 1rem;
   border-right: 0.1rem solid var(--accent-color);
   background-color: var(--secondary-color);
