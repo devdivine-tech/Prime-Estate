@@ -10,6 +10,7 @@
 }
 
 html {
+  font-size: clamp(16px, 1.7vw, 18px);
 }
 
 /* VARIABLES */ 
@@ -216,6 +217,10 @@ header .mobile-menu .menu {
   padding-left: 2rem;
   font-size: 1rem;
   font-weight: 500;
+}
+/* ||| MAIN */
+main {
+  margin-top: 3rem;
 }
 
 /* || HERO SECTION */
@@ -1220,25 +1225,21 @@ footer .close-page p {
   }
   
   .hero .content h1 {
-    font-size: 2.8rem;
     width: auto;
   }
   
   .hero .content .description {
-    font-size: 1.3rem;
   }
   
   .hero .content .cta a {
     padding: 0.8rem;
     padding-inline: 1.3rem;
-    font-size: 1.5rem;
     border-radius: 0.7rem;
   }
   
   .listings .listing-header h2 {
     text-align: center;
     margin-bottom: 1.1rem;
-    font-size: 1.8rem;
   }
   
   .listings .listing-filter {
@@ -1247,20 +1248,11 @@ footer .close-page p {
   
   .about .about-details .about-heading {
     text-align: center;
-    font-size: 1.8rem;
   }
   
   .about .about-details .about-description {
     width: 75%;
     margin-inline: auto;
-  }
-  
-  .process .process-heading h2 {
-    font-size: 1.8rem;
-  }
-  
-  .testimonial .testimonial-heading h2 {
-    font-size: 1.8rem;
   }
 }
 
@@ -1299,17 +1291,7 @@ footer .close-page p {
   }
   
   .hero .content h1 {
-    font-size: 3.2rem;
     width: auto;
-  }
-  
-  .hero .content .description {
-    font-size: 1.3rem;
-  }
-  
-  .hero .content .cta a {
-    padding-inline: 1.3rem;
-    font-size: 1.5rem;
   }
 }
 
@@ -1321,7 +1303,6 @@ footer .close-page p {
   }
   
   .mobile-menu .menu-lists .menu-list a {
-    font-size: 1.5rem;
     padding-inline: 1.3rem;
   }
   
@@ -1357,18 +1338,12 @@ footer .close-page p {
   }
   
   .hero .content h1 {
-    font-size: 3.8rem;
     width: auto;
-  }
-  
-  .hero .content .description {
-    font-size: 1.7rem;
   }
   
   .hero .content .cta a {
     padding: 1rem;
     padding-inline: 1.8rem;
-    font-size: 2rem;
     border-radius: 1rem;
     margin-right: 0.9rem;
   }
@@ -1376,16 +1351,10 @@ footer .close-page p {
   .listings .listing-header h2 {
     text-align: center;
     margin-bottom: 1.1rem;
-    font-size: 3rem;
   }
   
   .about .about-details .about-heading {
     text-align: center;
-    font-size: 3rem;
-  }
-  
-  .process .process-heading h2 {
-    font-size: 3rem;
   }
   
   .process .process-steps {
@@ -1395,14 +1364,6 @@ footer .close-page p {
   .process .process-steps .steps {
     max-width: 460px;
     margin-bottom: 2.3rem;
-  }
-  
-  .process .process-steps .steps .comment {
-    font-size: 7.5rem;
-  }
-  
-  .testimonial .testimonial-heading h2 {
-    font-size: 3rem;
   }
 }
 
@@ -1441,17 +1402,11 @@ footer .close-page p {
   }
   
   .hero .content h1 {
-    font-size: 4rem;
     width: auto;
-  }
-  
-  .hero .content .description {
-    font-size: 2rem;
   }
   
   .hero .content .cta a {
     padding-inline: 2rem;
-    font-size: 2.1rem;
     margin-right: 1.2rem;
   }
 }
