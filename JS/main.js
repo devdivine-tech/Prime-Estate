@@ -62,7 +62,7 @@ const listMenu = () => {
     opt3.classList.toggle("hidden");
     
     dropListMenu.forEach((list3, index) => {
-      if (index === 1) {
+      if (index === 2) {
         if (!opt3.classList.contains("hidden")) {
         list3.classList.remove("fa-chevron-down");
         list3.classList.add("fa-chevron-up");
@@ -104,7 +104,6 @@ const listOpt = () => {
      }
     });
   };
-  
   const toggleSelection2 = () => {
     ul.forEach((ul, index) => {
      if (index === 2) {

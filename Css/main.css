@@ -10,7 +10,7 @@
 }
 
 html {
-  font-size: clamp(16px, 1.7vw, 18px);
+  font-size: clamp(16px, 1.8vw, 20px);
 }
 
 /* VARIABLES */ 
@@ -333,8 +333,7 @@ main {
 
 .listings .listing-header .text {
   text-align: center;
-  opacity: 0.8;
-  font-size: 1.08rem;
+  font-size: 1.1rem;
   font-weight: 500;
   max-width: 700px;
   margin-inline: auto;
@@ -427,6 +426,7 @@ main {
 .listings .listing-lists .list-cards {
   border-radius: 0.8rem;
   flex-basis: 350px;
+  min-width: 350px;
   flex-grow: 1;
   flex-shrink: 0;
   max-width: 450px;
@@ -515,7 +515,9 @@ main {
 
 .about .about-details .about-description {
   font-size: 1.1rem;
-  font-weight: 501;
+  font-weight: 500;
+  max-width: 700px;
+  margin-inline: auto;
   text-align: center;
 }
 
@@ -528,7 +530,8 @@ main {
 }
 
 .about .about-features .feature {
-  max-width: 400px;
+  max-width: 450px;
+  min-width: 300px;
   margin: 1rem;
   margin-bottom: 4rem;
   border-radius: 1.5rem;
@@ -712,7 +715,7 @@ main {
 .testimonial .testimonies .testimony i {
   font-size: 3rem;
   display: block;
-  margin-inline: 7rem;
+  margin-inline: 7.6rem;
   margin-bottom: 1rem;
   color: var(--secondary-color);
 }
@@ -720,6 +723,8 @@ main {
 .testimonial .testimonies .testimony p {
   color: var(--primary-color);
   text-align: center;
+  min-width: 300px;
+  max-width: 450px;
 }
 
 .testimonial .testimonies .testimony label {
