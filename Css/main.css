@@ -10,7 +10,6 @@
 }
 
 html {
-  overflow-x: hidden;
 }
 
 /* VARIABLES */ 
@@ -34,7 +33,7 @@ body{
   font-family: var(--lato);
   background-color: #e5e9e9;
   color: var(--deep-teal);
-  overflow-x: hidden;
+  height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,9 +50,11 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--deep-teal);
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
-  z-index: 20;
+  left: 0;
+  z-index: 100;
 }
 
 img {
