@@ -1127,6 +1127,8 @@ footer .close-page p {
     right: auto;
     transform-origin: right;
     animation: none;
+    transform: none;
+    transition: none;
   }
   
   .mobile-menu .menu h3 {
