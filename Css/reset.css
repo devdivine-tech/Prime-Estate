@@ -1,0 +1,51 @@
+/* Main Css File || RESET */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: clamp(16px, 2vw, 22px);
+}
+
+/* VARIABLES */ 
+:root {
+  /* Colors */
+  --primary-color: #005F73;
+  --secondary-color: #0A9396;
+  --accent-color: #94D2BD;
+  --light-teal: #c5d8d1;
+  --very-light-teal: #e5e9e9;
+  --deep-teal: #002e39;
+  --coral: #FFB4A2;
+  --soft-coral: #ffcbbe;
+  /* Fonts */
+  --poppins: Poppins, serif;
+  --lato: Lato, serif;
+}
+
+/* Tags Styling */
+body{
+  font-family: var(--lato);
+  background-color: #e5e9e9;
+  color: var(--deep-teal);
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--poppins);
+  color: var(--primary-color);
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: none;
+}
