@@ -398,6 +398,7 @@ main {
     scroll-snap-align: start;
     background-color: var(--very-light-teal);
     position: relative;
+    cursor: pointer;
 }
 
 .listings .listing-lists a .list-cards .category {
