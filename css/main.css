@@ -38,7 +38,7 @@ header .logo {
 }
 
 header .mobile-menu {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 header .mobile-menu .menu-icon {
@@ -63,6 +63,7 @@ header .mobile-menu .menu {
     padding-inline: 2px;
     width: calc(100vw / 1.5);
     height: 100vh;
+    overflow: hidden;
     position: absolute;
     top: 1px;
     right: 0;
@@ -1131,7 +1132,7 @@ footer .close-page p {
 
     header .mobile-menu .menu {
         background-color: transparent;
-        overflow-y: scroll;
+        overflow: hidden;
         padding-top: 0;
         width: auto;
         height: auto;

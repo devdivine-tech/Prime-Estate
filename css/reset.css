@@ -10,7 +10,8 @@
 }
 
 html {
-    font-size: clamp(16px, 2vw, 22px);
+    font-size: clamp(16px, 2vw, 18px);
+    scroll-behavior: smooth;
 }
 
 /* VARIABLES */
