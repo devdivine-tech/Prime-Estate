@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const price = document.createElement("p");
     
     // STYLE THEM AND ADD CLASSES
-    link.href = `productPage.html?id=${product.id}`;
+    link.href = `view-this-product.html?id=${product.id}`;
     listCard.classList.add("list-cards");
     listCard.classList.add(product.status);
     listCard.setAttribute("data-aos", "zoom-in");
