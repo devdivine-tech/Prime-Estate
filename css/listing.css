@@ -1,17 +1,33 @@
-.listing-hero {
+.listing_hero {
+  background-color: #94d2bd;
+  background-image: url("../images/list/page-list/hero.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 2rem;
+  height: 100vh;
   position: relative;
-  min-height: 90vh;
-  max-height: 100vh;
 }
 
-.listing-hero .images {
+.listing_hero::before {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: inherit;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: contain;
+  content: "";
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+.listing_hero .content {
+  position: relative;
+  z-index: 2;
+}
+
+.listing_hero .content h1 {
+  font-size: 32px;
+  color: var(--light-teal);
+  text-align: center;
 }

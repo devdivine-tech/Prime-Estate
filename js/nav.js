@@ -14,3 +14,13 @@ const menuToggle = () => {
   
   menuIcon.addEventListener("click", toggle)
 }
+
+const deactivateLink = () => {
+  let link = document.querySelector(".link");
+
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+  });
+}
+
+deactivateLink();
