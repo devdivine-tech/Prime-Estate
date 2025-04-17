@@ -1,0 +1,17 @@
+.listing-hero {
+  position: relative;
+  min-height: 90vh;
+  max-height: 100vh;
+}
+
+.listing-hero .images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
