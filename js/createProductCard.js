@@ -3,15 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const listingLists = document.createElement("article");
   listingLists.classList.add("listing-lists");
 
-  const circle = document.querySelector("#contain");
-  if (circle) {
-    listingLists.classList.add("home");
-  }
-
-  let homePage = listingLists.classList.contains("home");
-  let numOfProduct = homePage ? 7 : products.length;
-
-  products.slice(0, numOfProduct).forEach((product) => {
+  products.forEach((product) => {
     // CREATE ELEMENTS
     const link = document.createElement("a");
     const listCard = document.createElement("figure");
@@ -34,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     link.href = `view-this-product.html?id=${product.id}`;
     listCard.classList.add("list-cards");
     listCard.classList.add(product.status);
-    listCard.setAttribute("data-aos", "zoom-in");
     category.classList.add("category");
     category.textContent = product.category;
     status.classList.add("status");

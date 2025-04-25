@@ -26,7 +26,7 @@
         <hr />
         <ul class="menu-lists">
           <li class="menu-list">
-            <a class="" href="#hero">Home</a>
+            <a class="" href="index.html">Home</a>
           </li>
           <li class="menu-list">
             <a class="list-opt" href="listing.html">Listing </a>
@@ -49,11 +49,24 @@
     <!-- HERO SECTION -->
     <section class="listing_hero">
       <article class="contents">
-        <h1>The Prime's Real Estate Global...</h1>
+        <h1>Your Dream Home Awaits Your Arrival</h1>
+        <p>Discover handpicked listings tailored to your lifestyle. Schedule tours instantly and see properties on your schedule. Move in with confidence—your new chapter starts now.</p>
+        <div class="cta-bar">
+          <div class="">
+            <input type="search" name="search-bar" class="search-bar" placeholder="Enter Your Property Type (e.g Apartment, Duplex etc)">
+            <div class="suggestions"></div>
+          </div>
+          <a href="">See Full Listing</a>
+        </div>
       </article>
     </section>
     
-    
+    <section class="listings" id="productList">
+      <article class="listings_header">
+        <h2 class="h2">Featured Listings</h2>
+      </article>
+    </section>
+
   </main>
 
   <footer>
@@ -82,8 +95,10 @@
     </section>
   </footer>
 
-  <script src="/js/nav.js"></script>
-  <script src="/js/mobile.js"></script>
-  <script src="/js/desktop.js"></script>
+  <script src="js/createProductCard.js"></script>
+  <script src="js/productData.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/mobile.js"></script>
+  <script src="js/desktop.js"></script>
 </body>
 </html>

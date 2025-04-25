@@ -2,12 +2,12 @@ const products = [
   {
     "id": 1,
     "name": "6-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-1.jpg",
+    "image": "images/list/house-1.jpg",
     "gallery": [
-      "/images/list/house-1.jpg",
-      "/images/list/house-1.jpg",
-      "/images/list/house-1.jpg",
-      "/images/list/house-1.jpg"
+      "images/list/house-1.jpg",
+      "images/list/house-1.jpg",
+      "images/list/house-1.jpg",
+      "images/list/house-1.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -37,12 +37,12 @@ const products = [
   {
     "id": 2,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-2.jpg",
+    "image": "images/list/house-2.jpg",
     "gallery": [
-      "/images/list/house-2.jpg",
-      "/images/list/house-2.jpg",
-      "/images/list/house-2.jpg",
-      "/images/list/house-2.jpg"
+      "images/list/house-2.jpg",
+      "images/list/house-2.jpg",
+      "images/list/house-2.jpg",
+      "images/list/house-2.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -72,12 +72,12 @@ const products = [
   {
     "id": 3,
     "name": "5-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-3.jpg",
+    "image": "images/list/house-3.jpg",
     "gallery": [
-      "/images/list/house-3.jpg",
-      "/images/list/house-3.jpg",
-      "/images/list/house-3.jpg",
-      "/images/list/house-3.jpg"
+      "images/list/house-3.jpg",
+      "images/list/house-3.jpg",
+      "images/list/house-3.jpg",
+      "images/list/house-3.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -107,12 +107,12 @@ const products = [
   {
     "id": 4,
     "name": "7-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-4.jpg",
+    "image": "images/list/house-4.jpg",
     "gallery": [
-      "/images/list/house-4.jpg",
-      "/images/list/house-4.jpg",
-      "/images/list/house-4.jpg",
-      "/images/list/house-4.jpg"
+      "images/list/house-4.jpg",
+      "images/list/house-4.jpg",
+      "images/list/house-4.jpg",
+      "images/list/house-4.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -142,12 +142,12 @@ const products = [
   {
     "id": 5,
     "name": "4-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-5.jpg",
+    "image": "images/list/house-5.jpg",
     "gallery": [
-      "/images/list/house-5.jpg",
-      "/images/list/house-5.jpg",
-      "/images/list/house-5.jpg",
-      "/images/list/house-5.jpg"
+      "images/list/house-5.jpg",
+      "images/list/house-5.jpg",
+      "images/list/house-5.jpg",
+      "images/list/house-5.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -177,12 +177,12 @@ const products = [
   {
     "id": 6,
     "name": "4-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-6.jpg",
+    "image": "images/list/house-6.jpg",
     "gallery": [
-      "/images/list/house-6.jpg",
-      "/images/list/house-6.jpg",
-      "/images/list/house-6.jpg",
-      "/images/list/house-6.jpg"
+      "images/list/house-6.jpg",
+      "images/list/house-6.jpg",
+      "images/list/house-6.jpg",
+      "images/list/house-6.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -212,12 +212,12 @@ const products = [
   {
     "id": 7,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-7.jpg",
+    "image": "images/list/house-7.jpg",
     "gallery": [
-      "/images/list/house-7.jpg",
-      "/images/list/house-7.jpg",
-      "/images/list/house-7.jpg",
-      "/images/list/house-7.jpg"
+      "images/list/house-7.jpg",
+      "images/list/house-7.jpg",
+      "images/list/house-7.jpg",
+      "images/list/house-7.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -247,12 +247,12 @@ const products = [
   {
     "id": 8,
     "name": "5-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-8.jpg",
+    "image": "images/list/house-8.jpg",
     "gallery": [
-      "/images/list/house-8.jpg",
-      "/images/list/house-8.jpg",
-      "/images/list/house-8.jpg",
-      "/images/list/house-8.jpg"
+      "images/list/house-8.jpg",
+      "images/list/house-8.jpg",
+      "images/list/house-8.jpg",
+      "images/list/house-8.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -282,12 +282,12 @@ const products = [
   {
     "id": 9,
     "name": "8-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-9.jpg",
+    "image": "images/list/house-9.jpg",
     "gallery": [
-      "/images/list/house-9.jpg",
-      "/images/list/house-9.jpg",
-      "/images/list/house-9.jpg",
-      "/images/list/house-9.jpg"
+      "images/list/house-9.jpg",
+      "images/list/house-9.jpg",
+      "images/list/house-9.jpg",
+      "images/list/house-9.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -317,12 +317,12 @@ const products = [
   {
     "id": 10,
     "name": "4-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-10.jpg",
+    "image": "images/list/house-10.jpg",
     "gallery": [
-      "/images/list/house-10.jpg",
-      "/images/list/house-10.jpg",
-      "/images/list/house-10.jpg",
-      "/images/list/house-10.jpg"
+      "images/list/house-10.jpg",
+      "images/list/house-10.jpg",
+      "images/list/house-10.jpg",
+      "images/list/house-10.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -352,12 +352,12 @@ const products = [
   {
     "id": 11,
     "name": "6-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-11.jpg",
+    "image": "images/list/house-11.jpg",
     "gallery": [
-      "/images/list/house-11.jpg",
-      "/images/list/house-11.jpg",
-      "/images/list/house-11.jpg",
-      "/images/list/house-11.jpg"
+      "images/list/house-11.jpg",
+      "images/list/house-11.jpg",
+      "images/list/house-11.jpg",
+      "images/list/house-11.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -387,12 +387,12 @@ const products = [
   {
     "id": 12,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-12.jpg",
+    "image": "images/list/house-12.jpg",
     "gallery": [
-      "/images/list/house-12.jpg",
-      "/images/list/house-12.jpg",
-      "/images/list/house-12.jpg",
-      "/images/list/house-12.jpg"
+      "images/list/house-12.jpg",
+      "images/list/house-12.jpg",
+      "images/list/house-12.jpg",
+      "images/list/house-12.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -422,12 +422,12 @@ const products = [
   {
     "id": 13,
     "name": "5-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-13.jpg",
+    "image": "images/list/house-13.jpg",
     "gallery": [
-      "/images/list/house-13.jpg",
-      "/images/list/house-13.jpg",
-      "/images/list/house-13.jpg",
-      "/images/list/house-13.jpg"
+      "images/list/house-13.jpg",
+      "images/list/house-13.jpg",
+      "images/list/house-13.jpg",
+      "images/list/house-13.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -457,12 +457,12 @@ const products = [
   {
     "id": 14,
     "name": "8-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-14.jpg",
+    "image": "images/list/house-14.jpg",
     "gallery": [
-      "/images/list/house-14.jpg",
-      "/images/list/house-14.jpg",
-      "/images/list/house-14.jpg",
-      "/images/list/house-14.jpg"
+      "images/list/house-14.jpg",
+      "images/list/house-14.jpg",
+      "images/list/house-14.jpg",
+      "images/list/house-14.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -492,12 +492,12 @@ const products = [
   {
     "id": 15,
     "name": "4-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-15.jpg",
+    "image": "images/list/house-15.jpg",
     "gallery": [
-      "/images/list/house-15.jpg",
-      "/images/list/house-15.jpg",
-      "/images/list/house-15.jpg",
-      "/images/list/house-15.jpg"
+      "images/list/house-15.jpg",
+      "images/list/house-15.jpg",
+      "images/list/house-15.jpg",
+      "images/list/house-15.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -527,12 +527,12 @@ const products = [
   {
     "id": 16,
     "name": "5-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-16.jpg",
+    "image": "images/list/house-16.jpg",
     "gallery": [
-      "/images/list/house-16.jpg",
-      "/images/list/house-16.jpg",
-      "/images/list/house-16.jpg",
-      "/images/list/house-16.jpg"
+      "images/list/house-16.jpg",
+      "images/list/house-16.jpg",
+      "images/list/house-16.jpg",
+      "images/list/house-16.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -562,12 +562,12 @@ const products = [
   {
     "id": 17,
     "name": "4-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-17.jpg",
+    "image": "images/list/house-17.jpg",
     "gallery": [
-      "/images/list/house-17.jpg",
-      "/images/list/house-17.jpg",
-      "/images/list/house-17.jpg",
-      "/images/list/house-17.jpg"
+      "images/list/house-17.jpg",
+      "images/list/house-17.jpg",
+      "images/list/house-17.jpg",
+      "images/list/house-17.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -597,12 +597,12 @@ const products = [
   {
     "id": 18,
     "name": "5-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-18.jpg",
+    "image": "images/list/house-18.jpg",
     "gallery": [
-      "/images/list/house-18.jpg",
-      "/images/list/house-18.jpg",
-      "/images/list/house-18.jpg",
-      "/images/list/house-18.jpg"
+      "images/list/house-18.jpg",
+      "images/list/house-18.jpg",
+      "images/list/house-18.jpg",
+      "images/list/house-18.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -632,12 +632,12 @@ const products = [
   {
     "id": 19,
     "name": "9-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-19.jpg",
+    "image": "images/list/house-19.jpg",
     "gallery": [
-      "/images/list/house-19.jpg",
-      "/images/list/house-19.jpg",
-      "/images/list/house-19.jpg",
-      "/images/list/house-19.jpg"
+      "images/list/house-19.jpg",
+      "images/list/house-19.jpg",
+      "images/list/house-19.jpg",
+      "images/list/house-19.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -667,12 +667,12 @@ const products = [
   {
     "id": 20,
     "name": "4-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-20.jpg",
+    "image": "images/list/house-20.jpg",
     "gallery": [
-      "/images/list/house-20.jpg",
-      "/images/list/house-20.jpg",
-      "/images/list/house-20.jpg",
-      "/images/list/house-20.jpg"
+      "images/list/house-20.jpg",
+      "images/list/house-20.jpg",
+      "images/list/house-20.jpg",
+      "images/list/house-20.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -702,12 +702,12 @@ const products = [
   {
     "id": 21,
     "name": "6-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-21.jpg",
+    "image": "images/list/house-21.jpg",
     "gallery": [
-      "/images/list/house-21.jpg",
-      "/images/list/house-21.jpg",
-      "/images/list/house-21.jpg",
-      "/images/list/house-21.jpg"
+      "images/list/house-21.jpg",
+      "images/list/house-21.jpg",
+      "images/list/house-21.jpg",
+      "images/list/house-21.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -737,12 +737,12 @@ const products = [
   {
     "id": 22,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-22.jpg",
+    "image": "images/list/house-22.jpg",
     "gallery": [
-      "/images/list/house-22.jpg",
-      "/images/list/house-22.jpg",
-      "/images/list/house-22.jpg",
-      "/images/list/house-22.jpg"
+      "images/list/house-22.jpg",
+      "images/list/house-22.jpg",
+      "images/list/house-22.jpg",
+      "images/list/house-22.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -772,12 +772,12 @@ const products = [
   {
     "id": 23,
     "name": "5-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-23.jpg",
+    "image": "images/list/house-23.jpg",
     "gallery": [
-      "/images/list/house-23.jpg",
-      "/images/list/house-23.jpg",
-      "/images/list/house-23.jpg",
-      "/images/list/house-23.jpg"
+      "images/list/house-23.jpg",
+      "images/list/house-23.jpg",
+      "images/list/house-23.jpg",
+      "images/list/house-23.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -807,12 +807,12 @@ const products = [
   {
     "id": 24,
     "name": "5-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-24.jpg",
+    "image": "images/list/house-24.jpg",
     "gallery": [
-      "/images/list/house-24.jpg",
-      "/images/list/house-24.jpg",
-      "/images/list/house-24.jpg",
-      "/images/list/house-24.jpg"
+      "images/list/house-24.jpg",
+      "images/list/house-24.jpg",
+      "images/list/house-24.jpg",
+      "images/list/house-24.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -842,12 +842,12 @@ const products = [
   {
     "id": 25,
     "name": "4-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-25.jpg",
+    "image": "images/list/house-25.jpg",
     "gallery": [
-      "/images/list/house-25.jpg",
-      "/images/list/house-25.jpg",
-      "/images/list/house-25.jpg",
-      "/images/list/house-25.jpg"
+      "images/list/house-25.jpg",
+      "images/list/house-25.jpg",
+      "images/list/house-25.jpg",
+      "images/list/house-25.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -877,12 +877,12 @@ const products = [
   {
     "id": 26,
     "name": "6-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-26.jpg",
+    "image": "images/list/house-26.jpg",
     "gallery": [
-      "/images/list/house-26.jpg",
-      "/images/list/house-26.jpg",
-      "/images/list/house-26.jpg",
-      "/images/list/house-26.jpg"
+      "images/list/house-26.jpg",
+      "images/list/house-26.jpg",
+      "images/list/house-26.jpg",
+      "images/list/house-26.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -912,12 +912,12 @@ const products = [
   {
     "id": 27,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-27.jpg",
+    "image": "images/list/house-27.jpg",
     "gallery": [
-      "/images/list/house-27.jpg",
-      "/images/list/house-27.jpg",
-      "/images/list/house-27.jpg",
-      "/images/list/house-27.jpg"
+      "images/list/house-27.jpg",
+      "images/list/house-27.jpg",
+      "images/list/house-27.jpg",
+      "images/list/house-27.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -947,12 +947,12 @@ const products = [
   {
     "id": 28,
     "name": "3-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-28.jpg",
+    "image": "images/list/house-28.jpg",
     "gallery": [
-      "/images/list/house-28.jpg",
-      "/images/list/house-28.jpg",
-      "/images/list/house-28.jpg",
-      "/images/list/house-28.jpg"
+      "images/list/house-28.jpg",
+      "images/list/house-28.jpg",
+      "images/list/house-28.jpg",
+      "images/list/house-28.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -982,12 +982,12 @@ const products = [
   {
     "id": 29,
     "name": "5-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-29.jpg",
+    "image": "images/list/house-29.jpg",
     "gallery": [
-      "/images/list/house-29.jpg",
-      "/images/list/house-29.jpg",
-      "/images/list/house-29.jpg",
-      "/images/list/house-29.jpg"
+      "images/list/house-29.jpg",
+      "images/list/house-29.jpg",
+      "images/list/house-29.jpg",
+      "images/list/house-29.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -1017,12 +1017,12 @@ const products = [
   {
     "id": 30,
     "name": "4-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-30.jpg",
+    "image": "images/list/house-30.jpg",
     "gallery": [
-      "/images/list/house-30.jpg",
-      "/images/list/house-30.jpg",
-      "/images/list/house-30.jpg",
-      "/images/list/house-30.jpg"
+      "images/list/house-30.jpg",
+      "images/list/house-30.jpg",
+      "images/list/house-30.jpg",
+      "images/list/house-30.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -1052,12 +1052,12 @@ const products = [
   {
     "id": 31,
     "name": "4-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-31.jpg",
+    "image": "images/list/house-31.jpg",
     "gallery": [
-      "/images/list/house-31.jpg",
-      "/images/list/house-31.jpg",
-      "/images/list/house-31.jpg",
-      "/images/list/house-31.jpg"
+      "images/list/house-31.jpg",
+      "images/list/house-31.jpg",
+      "images/list/house-31.jpg",
+      "images/list/house-31.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -1087,12 +1087,12 @@ const products = [
   {
     "id": 32,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-32.jpg",
+    "image": "images/list/house-32.jpg",
     "gallery": [
-      "/images/list/house-32.jpg",
-      "/images/list/house-32.jpg",
-      "/images/list/house-32.jpg",
-      "/images/list/house-32.jpg"
+      "images/list/house-32.jpg",
+      "images/list/house-32.jpg",
+      "images/list/house-32.jpg",
+      "images/list/house-32.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -1122,12 +1122,12 @@ const products = [
   {
     "id": 33,
     "name": "4-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-33.jpg",
+    "image": "images/list/house-33.jpg",
     "gallery": [
-      "/images/list/house-33.jpg",
-      "/images/list/house-33.jpg",
-      "/images/list/house-33.jpg",
-      "/images/list/house-33.jpg"
+      "images/list/house-33.jpg",
+      "images/list/house-33.jpg",
+      "images/list/house-33.jpg",
+      "images/list/house-33.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -1157,12 +1157,12 @@ const products = [
   {
     "id": 34,
     "name": "6-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-34.jpg",
+    "image": "images/list/house-34.jpg",
     "gallery": [
-      "/images/list/house-34.jpg",
-      "/images/list/house-34.jpg",
-      "/images/list/house-34.jpg",
-      "/images/list/house-34.jpg"
+      "images/list/house-34.jpg",
+      "images/list/house-34.jpg",
+      "images/list/house-34.jpg",
+      "images/list/house-34.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -1192,12 +1192,12 @@ const products = [
   {
     "id": 35,
     "name": "3-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-35.jpg",
+    "image": "images/list/house-35.jpg",
     "gallery": [
-      "/images/list/house-35.jpg",
-      "/images/list/house-35.jpg",
-      "/images/list/house-35.jpg",
-      "/images/list/house-35.jpg"
+      "images/list/house-35.jpg",
+      "images/list/house-35.jpg",
+      "images/list/house-35.jpg",
+      "images/list/house-35.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -1227,12 +1227,12 @@ const products = [
   {
     "id": 36,
     "name": "4-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-36.jpg",
+    "image": "images/list/house-36.jpg",
     "gallery": [
-      "/images/list/house-36.jpg",
-      "/images/list/house-36.jpg",
-      "/images/list/house-36.jpg",
-      "/images/list/house-36.jpg"
+      "images/list/house-36.jpg",
+      "images/list/house-36.jpg",
+      "images/list/house-36.jpg",
+      "images/list/house-36.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -1262,12 +1262,12 @@ const products = [
   {
     "id": 37,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-37.jpg",
+    "image": "images/list/house-37.jpg",
     "gallery": [
-      "/images/list/house-37.jpg",
-      "/images/list/house-37.jpg",
-      "/images/list/house-37.jpg",
-      "/images/list/house-37.jpg"
+      "images/list/house-37.jpg",
+      "images/list/house-37.jpg",
+      "images/list/house-37.jpg",
+      "images/list/house-37.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -1297,12 +1297,12 @@ const products = [
   {
     "id": 38,
     "name": "3-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-38.jpg",
+    "image": "images/list/house-38.jpg",
     "gallery": [
-      "/images/list/house-38.jpg",
-      "/images/list/house-38.jpg",
-      "/images/list/house-38.jpg",
-      "/images/list/house-38.jpg"
+      "images/list/house-38.jpg",
+      "images/list/house-38.jpg",
+      "images/list/house-38.jpg",
+      "images/list/house-38.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -1332,12 +1332,12 @@ const products = [
   {
     "id": 39,
     "name": "5-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-39.jpg",
+    "image": "images/list/house-39.jpg",
     "gallery": [
-      "/images/list/house-39.jpg",
-      "/images/list/house-39.jpg",
-      "/images/list/house-39.jpg",
-      "/images/list/house-39.jpg"
+      "images/list/house-39.jpg",
+      "images/list/house-39.jpg",
+      "images/list/house-39.jpg",
+      "images/list/house-39.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -1367,12 +1367,12 @@ const products = [
   {
     "id": 40,
     "name": "2-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-40.jpg",
+    "image": "images/list/house-40.jpg",
     "gallery": [
-      "/images/list/house-40.jpg",
-      "/images/list/house-40.jpg",
-      "/images/list/house-40.jpg",
-      "/images/list/house-40.jpg"
+      "images/list/house-40.jpg",
+      "images/list/house-40.jpg",
+      "images/list/house-40.jpg",
+      "images/list/house-40.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -1402,12 +1402,12 @@ const products = [
   {
     "id": 41,
     "name": "5-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-41.jpg",
+    "image": "images/list/house-41.jpg",
     "gallery": [
-      "/images/list/house-41.jpg",
-      "/images/list/house-41.jpg",
-      "/images/list/house-41.jpg",
-      "/images/list/house-41.jpg"
+      "images/list/house-41.jpg",
+      "images/list/house-41.jpg",
+      "images/list/house-41.jpg",
+      "images/list/house-41.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -1437,12 +1437,12 @@ const products = [
   {
     "id": 42,
     "name": "4-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-42.jpg",
+    "image": "images/list/house-42.jpg",
     "gallery": [
-      "/images/list/house-42.jpg",
-      "/images/list/house-42.jpg",
-      "/images/list/house-42.jpg",
-      "/images/list/house-42.jpg"
+      "images/list/house-42.jpg",
+      "images/list/house-42.jpg",
+      "images/list/house-42.jpg",
+      "images/list/house-42.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -1472,12 +1472,12 @@ const products = [
   {
     "id": 43,
     "name": "3-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-43.jpg",
+    "image": "images/list/house-43.jpg",
     "gallery": [
-      "/images/list/house-43.jpg",
-      "/images/list/house-43.jpg",
-      "/images/list/house-43.jpg",
-      "/images/list/house-43.jpg"
+      "images/list/house-43.jpg",
+      "images/list/house-43.jpg",
+      "images/list/house-43.jpg",
+      "images/list/house-43.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -1507,12 +1507,12 @@ const products = [
   {
     "id": 44,
     "name": "9-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-44.jpg",
+    "image": "images/list/house-44.jpg",
     "gallery": [
-      "/images/list/house-44.jpg",
-      "/images/list/house-44.jpg",
-      "/images/list/house-44.jpg",
-      "/images/list/house-44.jpg"
+      "images/list/house-44.jpg",
+      "images/list/house-44.jpg",
+      "images/list/house-44.jpg",
+      "images/list/house-44.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -1542,12 +1542,12 @@ const products = [
   {
     "id": 45,
     "name": "2-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-45.jpg",
+    "image": "images/list/house-45.jpg",
     "gallery": [
-      "/images/list/house-45.jpg",
-      "/images/list/house-45.jpg",
-      "/images/list/house-45.jpg",
-      "/images/list/house-45.jpg"
+      "images/list/house-45.jpg",
+      "images/list/house-45.jpg",
+      "images/list/house-45.jpg",
+      "images/list/house-45.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",
@@ -1577,12 +1577,12 @@ const products = [
   {
     "id": 46,
     "name": "6-Bedroom Duplex with Modern Features",
-    "image": "/images/list/house-46.jpg",
+    "image": "images/list/house-46.jpg",
     "gallery": [
-      "/images/list/house-46.jpg",
-      "/images/list/house-46.jpg",
-      "/images/list/house-46.jpg",
-      "/images/list/house-46.jpg"
+      "images/list/house-46.jpg",
+      "images/list/house-46.jpg",
+      "images/list/house-46.jpg",
+      "images/list/house-46.jpg"
     ],
     "category": "Duplex",
     "available": "For sale",
@@ -1612,12 +1612,12 @@ const products = [
   {
     "id": 47,
     "name": "3-Bedroom Penthouse with Modern Features",
-    "image": "/images/list/house-47.jpg",
+    "image": "images/list/house-47.jpg",
     "gallery": [
-      "/images/list/house-47.jpg",
-      "/images/list/house-47.jpg",
-      "/images/list/house-47.jpg",
-      "/images/list/house-47.jpg"
+      "images/list/house-47.jpg",
+      "images/list/house-47.jpg",
+      "images/list/house-47.jpg",
+      "images/list/house-47.jpg"
     ],
     "category": "Penthouse",
     "available": "For sale",
@@ -1647,12 +1647,12 @@ const products = [
   {
     "id": 48,
     "name": "3-Bedroom Terrace with Modern Features",
-    "image": "/images/list/house-48.jpg",
+    "image": "images/list/house-48.jpg",
     "gallery": [
-      "/images/list/house-48.jpg",
-      "/images/list/house-48.jpg",
-      "/images/list/house-48.jpg",
-      "/images/list/house-48.jpg"
+      "images/list/house-48.jpg",
+      "images/list/house-48.jpg",
+      "images/list/house-48.jpg",
+      "images/list/house-48.jpg"
     ],
     "category": "Terrace",
     "available": "For sale",
@@ -1682,12 +1682,12 @@ const products = [
   {
     "id": 49,
     "name": "9-Bedroom Mansion with Modern Features",
-    "image": "/images/list/house-49.jpg",
+    "image": "images/list/house-49.jpg",
     "gallery": [
-      "/images/list/house-49.jpg",
-      "/images/list/house-49.jpg",
-      "/images/list/house-49.jpg",
-      "/images/list/house-49.jpg"
+      "images/list/house-49.jpg",
+      "images/list/house-49.jpg",
+      "images/list/house-49.jpg",
+      "images/list/house-49.jpg"
     ],
     "category": "Mansion",
     "available": "For sale",
@@ -1717,12 +1717,12 @@ const products = [
   {
     "id": 50,
     "name": "3-Bedroom Bungalow with Modern Features",
-    "image": "/images/list/house-50.jpg",
+    "image": "images/list/house-50.jpg",
     "gallery": [
-      "/images/list/house-50.jpg",
-      "/images/list/house-50.jpg",
-      "/images/list/house-50.jpg",
-      "/images/list/house-50.jpg"
+      "images/list/house-50.jpg",
+      "images/list/house-50.jpg",
+      "images/list/house-50.jpg",
+      "images/list/house-50.jpg"
     ],
     "category": "Bungalow",
     "available": "For sale",

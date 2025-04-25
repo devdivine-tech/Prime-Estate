@@ -5,6 +5,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   height: 100vh;
   position: relative;
@@ -21,13 +24,102 @@
   z-index: 1;
 }
 
-.listing_hero .content {
+.listing_hero .contents {
   position: relative;
   z-index: 2;
 }
 
-.listing_hero .content h1 {
-  font-size: 32px;
+.listing_hero .contents h1 {
+  font-size: clamp(38px, 8vw, 46px);
   color: var(--light-teal);
   text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.listing_hero .contents p {
+  color: var(--light-teal);
+  font-weight: 600;
+  text-align: center;
+  margin-inline: auto;
+  max-width: 800px;
+}
+
+.listing_hero .contents .cta-bar {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 550px;
+  margin-inline: auto;
+}
+
+.listing_hero .contents .cta-bar .search-bar {
+  height: 2.3rem;
+  border: 0.05rem solid var(--very-light-teal);
+  border-radius: 1.1rem;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  color: var(--deep-teal);
+  padding: 0.5rem;
+  padding-inline: 0.8rem;
+  min-width: 350px;
+  max-width: 400px;
+  transition: 0.2s all;
+}
+
+.listing_hero .contents .cta-bar .search-bar:hover, 
+.listing_hero .contents .cta-bar .search-bar:focus {
+  outline: none;
+  background-color: var(--very-light-teal);
+  border-color: var(--light-teal);
+}
+
+.listing_hero .contents .cta-bar .search-bar::placeholder {
+  color: var(--light-teal);
+}
+
+.listing_hero .contents .cta-bar .search-bar:hover::placeholder, 
+.listing_hero .contents .cta-bar .search-bar:focus::placeholder {
+  color: var(--deep-teal);
+}
+
+.listing_hero .contents .cta-bar a {
+  color: var(--light-teal);
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  padding: 0.6rem;
+  margin: 1rem;
+  border: 0.1rem var(--very-light-teal) solid;
+  border-radius: 1.8rem;
+  font-weight: 600;
+  padding-inline: 1.2rem;
+  transition: 0.3s all;
+}
+
+.listing_hero .contents .cta-bar a:hover, 
+.listing_hero .contents .cta-bar a:hover {
+  background-color: var(--light-teal);
+  color: var(--deep-teal);
+}
+
+.listings .listings_header {
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+.listings .listings_header h2 {
+  font-size: clamp(24px, 8vw, 32px);
+  color: var(--deep-teal);
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.listings .listing-lists {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
