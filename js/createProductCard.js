@@ -25,6 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // STYLE AND ADD CLASSES
     link.href = `view-this-product.html?id=${product.id}`;
     listCard.classList.add("list-cards");
+    listCard.setAttribute("data-id", product.id);
+    listCard.setAttribute("data-aos", "fade-in");
+    listCard.setAttribute("data-aos-duration", "2000");
+    listCard.setAttribute("data-aos-delay", "300");
     listCard.classList.add(product.status);
     category.classList.add("category");
     category.textContent = product.category;

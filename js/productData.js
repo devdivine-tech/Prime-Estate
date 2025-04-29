@@ -1750,3 +1750,10 @@ const products = [
     }
   }
 ];
+
+// ANIMATE ON SCROLL SCRIPT
+AOS.init({
+  delay: 200,
+  duration: 800,
+  once: true,
+});
