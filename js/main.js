@@ -1,14 +1,5 @@
 let mobileMenu = document.querySelector('.mobile-menu');
 
-const deactivateLink = () => {
-  let link = document.querySelector(".link");
-
-  link.addEventListener('click', function(e) {
-    e.preventDefault();
-  });
-}
-deactivateLink();
-
 // FILTER
 const filter = () => {
   let all = document.querySelector("#all");

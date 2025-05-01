@@ -8,7 +8,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  Font-size: 1.25rem;
 }
 
 .heading h1 {
@@ -91,7 +91,6 @@ h3 {
 }
 
 .description .overview p {
-  font-size: 1rem;
   max-width: 500px;
 }
 

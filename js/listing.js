@@ -1,3 +1,5 @@
+// SEARCH BAR FUNCTIONALITY
+// => This script handles the search bar functionality, including showing suggestions, filtering the main list, and resetting the list when the "See Full Listing" link is clicked.
 document.addEventListener("DOMContentLoaded", function () {
   const searchBar = document.querySelector(".search-bar");
   const suggestions = document.querySelector(".suggestions");
@@ -96,6 +98,39 @@ document.addEventListener("DOMContentLoaded", function () {
       );
       if (productElement) {
         productElement.classList.remove("hidden"); // Show all products
+      }
+    });
+  });
+});
+
+// FAQS FUNCTIONALITY
+// => This script handles the FAQ section, allowing users to expand and collapse answers to questions.
+
+document.addEventListener("DOMContentLoaded", function () {
+  const faqs = document.querySelectorAll("dl");
+
+  faqs.forEach((faq) => {
+    const question = faq.querySelector("dt");
+    const answer = faq.querySelector("dd");
+    const iconPlus = faq.querySelector(".fa-plus");
+    const iconMinus = faq.querySelector(".fa-minus");
+
+    // Initially hide all answers
+    answer.style.height = "0"; // Set height to 0 for smooth animation
+    answer.style.overflow = "hidden"; // Prevent content overflow
+    answer.style.transition = "height 0.3s ease"; // Add smooth transition
+
+    question.addEventListener("click", function () {
+      if (answer.style.height === "0px") {
+        // Expand the answer
+        answer.style.height = `${answer.scrollHeight}px`; // Set height to content height
+        iconPlus.style.display = "none"; // Hide the plus icon
+        iconMinus.style.display = "block"; // Show the minus icon
+      } else {
+        // Collapse the answer
+        answer.style.height = "0"; // Set height to 0
+        iconPlus.style.display = "block"; // Show the plus icon
+        iconMinus.style.display = "none"; // Hide the minus icon
       }
     });
   });

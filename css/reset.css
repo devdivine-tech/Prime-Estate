@@ -10,7 +10,7 @@
 }
 
 html {
-    font-size: clamp(14px, 2vw, 16px);
+    font-size: clamp(16px, 2vw, 17px);
     scroll-behavior: smooth;
 }
 
@@ -46,6 +46,30 @@ h5,
 h6 {
     font-family: var(--poppins);
     color: var(--primary-color);
+}
+
+h1 {
+    font-size: clamp(2rem, 3vw, 3rem);
+}
+
+h2 {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+h3 {
+    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+}
+
+h4 {
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
+}
+
+h5 {
+    font-size: clamp(0.9rem, 1vw, 1rem);
+}
+
+h6 {
+    font-size: clamp(0.8rem, 0.8vw, 0.9rem);
 }
 
 img {
