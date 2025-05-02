@@ -77,4 +77,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // APPEND THE MAIN ARTICLE TO THE CONTAINER
   container.appendChild(listingLists);
+
+
+  const btnFullListing = document.createElement("a");
+  btnFullListing.href = "listing.html";
+  btnFullListing.textContent = "View Full Listings";
+  btnFullListing.classList.add("btn-full-listing");
+
+  container.appendChild(btnFullListing);
 });

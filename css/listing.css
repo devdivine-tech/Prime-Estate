@@ -223,6 +223,14 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.faqs .questions dt:hover, 
+.faqs .questions dt:focus, 
+.faqs .questions dt:hover i,
+.faqs .questions dt:focus i {
+  color: var(--primary-color);
 }
 
 .faqs .questions dt i {

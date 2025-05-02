@@ -469,7 +469,7 @@ a .list-cards .list-content .list-details .rooms {
 a .list-cards .list-content .list-details .rooms i {
     color: var(--primary-color);
     margin-right: 0.25rem;
-     : 1.1rem;
+    font-size: 1.1rem;
 }
 
 a .list-cards .list-content .list-details p {
@@ -487,6 +487,46 @@ a .list-cards .list-content .list-details .price {
     margin-top: 0.5rem;
     font-size: 1.5rem;
     color: var(--primary-color);
+}
+
+.listings .btn-full-listing {
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    background: linear-gradient(rgb(52, 236, 224), rgb(11, 99, 93));
+    color: var(--very-light-teal);
+    margin-top: 1rem;
+    position: relative;
+    display: block;
+    z-index: 1;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    width: 90%;
+    margin-inline: auto;
+    transition: transform 1s ease-in-out;
+    box-shadow: 0 0 0.5rem var(--accent-color);
+}
+
+.listings .btn-full-ligsting::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    border-radius: 0.8rem;
+    bottom: 0;
+    right: 100%;
+    display: inline-block;
+    left: 0;
+    background: linear-gradient(rgb(0, 46, 57), rgb(0, 95, 115));
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.listings .btn-full-listing:hover::before,
+.listings .btn-full-listing:focus::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
 }
 
 .about {
