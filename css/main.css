@@ -507,7 +507,7 @@ a .list-cards .list-content .list-details .price {
     box-shadow: 0 0 0.5rem var(--accent-color);
 }
 
-.listings .btn-full-ligsting::before {
+.listings .btn-full-listing::before {
     content: "";
     position: absolute;
     top: 0;
