@@ -1753,7 +1753,7 @@ const products = [
 
 // ANIMATE ON SCROLL SCRIPT
 AOS.init({
-  delay: 200,
+  delay: 100,
   duration: 800,
   once: true,
 });

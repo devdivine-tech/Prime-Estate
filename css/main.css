@@ -562,17 +562,18 @@ a .list-cards .list-content .list-details .price {
 }
 
 .about .about-features .feature {
-    max-width: 450px;
+    max-width: 400px;
     min-width: 300px;
     margin: 1rem;
     margin-bottom: 4rem;
     border-radius: 1.5rem;
     padding: 1rem;
+    padding-bottom: 3rem;
     box-shadow: 0px 0px 6px var(--accent-color);
 }
 
 .about .about-features .feature svg {
-    width: 70%;
+    width: 50%;
     display: block;
     margin-inline: auto;
     height: auto;
@@ -587,45 +588,6 @@ a .list-cards .list-content .list-details .price {
 
 .about .about-features .feature p {
     text-align: center;
-}
-
-.about .about-features .feature a {
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    background: linear-gradient(rgb(52, 236, 224), rgb(11, 99, 93));
-    color: var(--very-light-teal);
-    margin-top: 1rem;
-    position: relative;
-    display: block;
-    z-index: 1;
-    cursor: pointer;
-    font-weight: 600;
-    width: fit-content;
-    margin-inline: auto;
-    transition: transform 1s ease-in-out;
-    box-shadow: 0 0 0.5rem var(--accent-color);
-}
-
-.about .about-features .feature a::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    border-radius: 0.3rem;
-    bottom: 0;
-    right: 100%;
-    display: inline-block;
-    left: 0;
-    background: linear-gradient(rgb(0, 46, 57), rgb(0, 95, 115));
-    opacity: 0;
-    z-index: -1;
-    transition: all 0.5s;
-}
-
-.about .about-features .feature a:hover::before,
-.about .about-features .feature a:focus::before {
-    left: 0;
-    right: 0;
-    opacity: 1;
 }
 
 .process {
@@ -991,7 +953,6 @@ footer .links .links_short {
     flex-wrap: wrap;
     max-width: 650px;
     margin-inline: auto;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -1000,6 +961,7 @@ footer .links .links_short .short {
     transition: 0.3s ease-in-out;
     color: var(--very-light-teal);
     margin-bottom: 1rem;
+    margin-inline: clamp(0.5rem, 1vw, 1rem);
 }
 
 footer .links .links_short .short:hover,
