@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Filter the main list when the search button is clicked
-  searchButton.addEventListener("click", function (e) {
+  const filterMainList = (e) => {
     const searchTerm = searchBar.value.toLowerCase().trim();
     const searchWords = searchTerm.split(" "); // Split search term into words
 
@@ -80,6 +80,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Hide suggestions after filtering
     suggestions.style.display = "none";
+  }
+  
+  searchButton.addEventListener("click", filterMainList);
+  // Add event listener for the Enter key
+  searchBar.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      e.preventDefault(); // Prevent default behavior
+      filterMainList(); // Call the filter function
+  
+      // Scroll to the specific section
+      const targetSection = document.querySelector("#productList"); // Replace with your section's ID or class
+      if (targetSection) {
+        targetSection.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the section
+      }
+    }
   });
 
   // Reset the main list when the "See Full Listing" link is clicked

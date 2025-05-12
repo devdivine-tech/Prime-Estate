@@ -65,9 +65,15 @@
   color: var(--deep-teal);
   padding: 0.5rem;
   padding-inline: 0.8rem;
+  padding-right: 2.5rem;
   min-width: clamp(300px, 30vw, 300px);
   max-width: 390px;
   transition: 0.2s all;
+}
+
+.listing_hero .contents .cta-bar .search .search-bar[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .listing_hero .contents .cta-bar .search .search-bar:hover, 
@@ -124,20 +130,24 @@
 }
 
 .listing_hero .contents .cta-bar .search-btn {
-  background-color: var(--light-teal);
+  position: absolute;
+  right: 0.8rem;
+  top: 0.18rem;
+  background-color: transparent;
+  z-index: 1000;
+  padding: 0.3rem;
+  border-radius: 50%;
+  font-weight: 900;
+  color: var(--light-teal);
+}
+
+.listing_hero .contents .cta-bar .search:hover .search-btn,
+.listing_hero .contents .cta-bar .search .search-bar:focus ~ .search-btn {
+  background-color: var(--very-light-teal);
   color: var(--deep-teal);
-  backdrop-filter: blur(2px);
-  padding: 0.5rem;
-  margin-left: 0.3rem;
-  border: 0.1rem var(--very-light-teal) solid;
-  border-radius: 1.8rem;
-  font-weight: 600;
-  padding-inline: 0.8rem;
-  transition: 0.3s all;
 }
 
 .listing_hero .contents .cta-bar .search-btn i {
-  margin-left: 0.1rem;
   font-size: small;
 }
 
