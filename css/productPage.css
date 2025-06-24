@@ -29,7 +29,8 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-.heading .about span {
+.heading .about span, 
+.heading .about a {
   padding: 0.3rem;
   display: inline-block;
   padding-inline: 0.8rem;
@@ -39,8 +40,15 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-.heading .about span i {
+.heading .about span i, 
+.heading .about a i {
   margin-right: 0.2rem;
+}
+
+.heading .about a:hover,
+.heading .about a:focus {
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 
