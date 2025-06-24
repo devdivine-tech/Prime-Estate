@@ -42,6 +42,7 @@ if (product) {
   bathrooms.innerHTML = `<i class="fa-solid fa-bath"></i> ${product.bathrooms}`;
   sqrt.innerHTML = `<i class="fa-solid fa-ruler-combined"></i> ${product.sqrt}`;
   contactAgent.innerHTML = `<i class="fa-solid fa-phone-volume"></i> Contact Agent`;
+  contactAgent.href = "tel:+2348169383907";
   price.textContent = product.price;
   overview_h2.textContent = "Overview";
   overview_p.innerHTML = product.fullDescription;
