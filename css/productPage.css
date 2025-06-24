@@ -34,6 +34,7 @@ h3 {
   padding: 0.3rem;
   display: inline-block;
   padding-inline: 0.8rem;
+  color: var(--very-light-teal);
   background: var(--primary-color);
   border-radius: 1rem;
   margin-inline: 0.2rem;
