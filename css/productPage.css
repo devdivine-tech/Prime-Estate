@@ -48,7 +48,7 @@ h3 {
 
 .heading .about a:hover,
 .heading .about a:focus {
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
   text-decoration: none;
 }
 
